@@ -3,6 +3,8 @@ import {Customer} from "./entitySets/Customer";
 import {config} from "dotenv";
 config()
 
+
+
 async function main (){
     try {
         await createConnection({
